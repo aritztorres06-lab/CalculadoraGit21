@@ -12,7 +12,9 @@ public class Calculadora21 {
 	} 
 	public double dividir(int a, int b) { 
 		 if (b == 0) { 
-			 throw new IllegalArgumentException("No se puede dividir entre cero");  } 
+		 System.out.println("Error: división entre cero"); 
+		 return 0; 
+		 } 
 		 return (double) a / b; 
-	}
+	} 
 }
