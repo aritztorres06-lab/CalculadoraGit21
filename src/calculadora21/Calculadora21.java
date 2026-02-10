@@ -1,5 +1,11 @@
 package calculadora21;
 
+/**
+ * Esta clase proporciona métodos para realizar operaciones matemáticas básicas 
+ * y avanzadas, como suma, resta, potencia y módulo.
+ * * @author Aritz
+ */
+
 public class Calculadora21 {
 	public int sumar(int a, int b) { 
 		return a + b; 
